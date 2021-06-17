@@ -1,0 +1,19 @@
+@import "header.scss";
+@import "mainDiv.scss";
+@import "footer.scss";
+@import "mediaQueries.scss";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e6e0e0;
+}
+
+#contenedor {
+    width: 80%;
+    margin: auto;
+}
