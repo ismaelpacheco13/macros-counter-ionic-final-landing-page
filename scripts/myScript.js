@@ -6,12 +6,12 @@ function canvas() {
     if (myCanvas && myCanvas.getContext("2d")) {
         var context = myCanvas.getContext("2d");
         var myImages = [
-            'images/1.png',
-            'images/2.png',
-            'images/3.png',
-            'images/4.png',
-            'images/5.png',
-            'images/6.png'
+            'https://raw.githubusercontent.com/ismaelpacheco13/macros-counter-ionic-final-landing-page/master/images/1.png',
+            'https://raw.githubusercontent.com/ismaelpacheco13/macros-counter-ionic-final-landing-page/master/images/2.png',
+            'https://raw.githubusercontent.com/ismaelpacheco13/macros-counter-ionic-final-landing-page/master/images/3.png',
+            'https://raw.githubusercontent.com/ismaelpacheco13/macros-counter-ionic-final-landing-page/master/images/4.png',
+            'https://raw.githubusercontent.com/ismaelpacheco13/macros-counter-ionic-final-landing-page/master/images/5.png',
+            'https://raw.githubusercontent.com/ismaelpacheco13/macros-counter-ionic-final-landing-page/master/images/6.png'
         ];
         var img = document.createElement("img");
         var i = 0;
